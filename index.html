@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Testing</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="point"><h1>0</h1></div>
+      <div id="start">
+        <button type="start" onclick="startPlaying()">START</button>
+      </div>
+      <div id = "gameOver">
+        <h1>GAME OVER</h1>
+        <h2>Scores: </h2>
+        <h2>0</h2>
+        <button type="over" onclick="startPlaying()">RESTART</button>
+      </div>
+      <div id="ceiling">
+        </div>
+        <img src="transparent-water-puddle-3.png" id="waterPuddle1">
+        <img src="transparent-water-puddle-3.png" id="waterPuddle2">
+        <img src="Lamp1.png" id="lamp">
+        <img src="transparent-water-puddle-3.png" id="waterPuddle3">
+        <img src="transparent-water-puddle-3.png" id="waterPuddle4">
+
+        <img src="water.png" class="waterDrop" id="waterdrop1" style="left: 35px; top: 40px;" />
+        <img src="water.png" class="waterDrop" id="waterdrop2" style="left: 165px; top: 40px;" />
+        <img src="water.png" class="waterDrop" id="waterdrop3" style="left: 425px; top: 40px;" />
+        <img src="water.png" class="waterDrop" id="waterdrop4" style="left: 555px; top: 40px;" />
+
+        <img src="waterSplash.png" class="waterSplash" id="waterSplash1" />
+        <img src="waterSplash.png" class="waterSplash" id="waterSplash2" />
+        <img src="waterSplash.png" class="waterSplash" id="waterSplash3" />
+        <img src="waterSplash.png" class="waterSplash" id="waterSplash4" />
+
+      <img src ="bucket1.png" id="bucket" style="left:0px; width: 110px;"/>
+      <div id="couch"></div>
+      <div id="tv"></div>
+      <div id="table"></div>
+      <div id = "meetingPoint"></div>
+
+      <div id="floor">
+      
+        <div id="lives">
+          <img src="heavy-black-heart_2764.png" id="heart1">
+          <img src="heavy-black-heart_2764.png" id="heart2">
+          <img src="heavy-black-heart_2764.png" id="heart3">
+        </div>
+        <button class="directionLeft" onclick="addEventListener('click',toTheLeft())">
+          &lt
+        </button>
+        <button class="directionRight" onclick="addEventListener('click',toTheRight())">
+          &gt
+        </button>
+      </div>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,264 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+#container {
+  width: 650px;
+  /* height: 90%; */
+  margin-left: 25%;
+  margin-top: 2%;
+  background-color: rgb(4, 148, 153);
+  border: 1px solid black;
+  overflow: hidden;
+  position: relative;
+}
+#ceiling {
+  width: 100%;
+  position: absolute;
+  height: 80px;
+  background-image: url("wood.jpg");
+}
+#waterPuddle1 {
+  top: 10px;
+  width: 70px;
+  height: 60px;
+  left: 3%;
+  position: absolute;
+  z-index: 1;
+}
+#waterPuddle2 {
+  top: 10px;
+  width: 70px;
+  height: 60px;
+  left: 23%;
+  position: absolute;
+  z-index: 1;
+}
+#lamp {
+  top: 35px;
+  width: 200px;
+  height: 150px;
+  left: 35%;
+  position: absolute;
+  z-index: 1;
+}
+#waterPuddle3 {
+  top: 10px;
+  width: 70px;
+  height: 60px;
+  left: 63%;
+  position: absolute;
+  z-index: 1;
+}
+#waterPuddle4 {
+  top: 10px;
+  width: 70px;
+  height: 60px;
+  left: 83%;
+  position: absolute;
+  z-index: 1;
+}
+.waterDrop {
+  width: 40px;
+  height: 40px;
+  z-index: 4;
+  position: absolute;
+  /* top: 40px; */
+}
+
+#waterdrop1 {
+  left: 35px;
+}
+#waterdrop2 {
+  left: 165px;
+}
+#waterdrop3 {
+  left: 425px;
+}
+#waterdrop4 {
+  left: 555px;
+}
+
+.waterSplash {
+  bottom: 50px;
+  z-index: 1;
+  position: absolute;
+  width: 80px;
+  height: 50px;
+}
+#waterSplash1 {
+  left: 2%;
+}
+#waterSplash2 {
+  left: 22%;
+}
+#waterSplash3 {
+  left: 62%;
+}
+#waterSplash4 {
+  left: 82%;
+}
+
+#point {
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  right: 0%;
+  z-index: 100;
+}
+#point h1 {
+  text-align: center;
+  margin-top: 4%;
+}
+
+#start {
+  width: 100%;
+  height: 80px;
+  top: 170px;
+  background-color: rgba(252, 39, 24, 0.749);
+  position: absolute;
+  z-index: 3;
+}
+#start button {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 25px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#floor {
+  width: 100%;
+  height: 200px;
+  background-image: url("wood.jpg");
+  position: absolute;
+  bottom: 0;
+}
+
+#bucket {
+  height: 160px;
+  bottom: 30px;
+  z-index: 5;
+  background-size: cover;
+  background-repeat: no-repeat;
+  bottom: 30px;
+  position: absolute;
+  
+}
+#couch {
+  background: url("couch-potato-png-hd-couch-potato-1600.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  bottom: 120px;
+  z-index: 1;
+  right: 30px;
+}
+#tv {
+  z-index: 2;
+  background: url("tv.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 150px;
+  bottom: 222px;
+  right: 358px;
+}
+#table {
+  background: url("table.png");
+  position: absolute;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 230px;
+  height: 110px;
+  bottom: 140px;
+  right: 350px;
+}
+#heart1 {
+  left: 10px;
+  bottom: 7%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  z-index: 100;
+}
+#heart2 {
+  left: 50px;
+  bottom: 7%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  z-index: 100;
+
+}
+#heart3 {
+  left: 90px;
+  bottom: 7%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  z-index: 100;
+
+}
+
+.directionLeft {
+  color: white;
+  height: 30px;
+  width: 60px;
+  font-weight: bold;
+  right: 15%;
+  bottom: 7%;
+  background-color: rgb(167, 30, 21);
+  border: solid 2px white;
+  font-size: 20px;
+  position: absolute;
+  z-index: 100;
+  cursor: pointer;
+}
+.directionRight {
+  color: white;
+  height: 30px;
+  width: 60px;
+  font-weight: bold;
+  right: 3%;
+  bottom: 7%;
+  background-color: rgb(167, 30, 21);
+  border: solid 2px white;
+  font-size: 20px;
+  position: absolute;
+  z-index: 100;
+  cursor: pointer;
+}
+#meetingPoint{
+  width: 100%;
+  height: 83px;
+  position: absolute;
+  /* background-color: white; */
+  z-index: 4;
+  top:77%;
+}
+#gameOver{
+  width: 100%;
+  height: 260px;
+  top: 150px;
+  background-color: rgba(252, 39, 24, 0.749);
+  position: absolute;
+  z-index: 3;
+  text-align: center;
+  color: white;
+}
+#gameOver button{
+  font-weight: bold;
+  font-size: 15px;
+  width: 90px;
+  height: 40px;
+  cursor: pointer;
+}
