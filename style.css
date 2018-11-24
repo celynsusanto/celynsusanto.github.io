@@ -121,6 +121,7 @@ body {
   background-color: rgba(252, 39, 24, 0.749);
   position: absolute;
   z-index: 3;
+
 }
 #start button {
   width: 40%;
@@ -129,7 +130,7 @@ body {
   height: 30px;
   cursor: pointer;
   font-size: 20px;
-  font-weight: bold;
+  font-family: 'Concert One', cursive;
 }
 
 #floor {
@@ -257,7 +258,7 @@ body {
   color: white;
 }
 #gameOver button{
-  font-weight: bold;
+  font-family: 'Concert One', cursive;
   font-size: 15px;
   width: 90px;
   height: 40px;
